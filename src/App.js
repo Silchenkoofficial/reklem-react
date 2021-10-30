@@ -1,25 +1,77 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { ChakraProvider, Box, HStack } from "@chakra-ui/react";
+import theme from "./Constants/theme";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <ChakraProvider>
+      <HStack spacing={2} align="flex-end">
+        <Box
+          style={{
+            ...theme.fonts.desktop.H1,
+          }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          Hello
+        </Box>
+        <Box
+          style={{
+            ...theme.fonts.desktop["H2 Normal"],
+          }}
+        >
+          Hello
+        </Box>
+        <Box
+          style={{
+            ...theme.fonts.desktop["H2 Bold"],
+          }}
+        >
+          Hello
+        </Box>
+        <Box
+          style={{
+            ...theme.fonts.desktop.H3,
+          }}
+        >
+          Hello
+        </Box>
+        <Box
+          style={{
+            ...theme.fonts.desktop.P,
+          }}
+        >
+          Hello
+        </Box>
+        <Box
+          style={{
+            ...theme.fonts.desktop["P Link"],
+          }}
+        >
+          Hello
+        </Box>
+        <Box
+          style={{
+            ...theme.fonts.desktop["P Little"],
+          }}
+        >
+          Hello
+        </Box>
+        <Box
+          style={{
+            ...theme.fonts.desktop["P Little Link"],
+          }}
+        >
+          Hello
+        </Box>
+        <Box
+          style={{
+            ...theme.fonts.desktop.Menu,
+          }}
+        >
+          Hello
+        </Box>
+      </HStack>
+    </ChakraProvider>
   );
-}
+};
 
 export default App;
