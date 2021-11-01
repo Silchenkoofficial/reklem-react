@@ -1,15 +1,15 @@
 import React from "react";
-import { ChakraProvider, Box, Text, Input, Button } from "@chakra-ui/react";
+import { ChakraProvider, Box, Text } from "@chakra-ui/react";
 // import { Button, Input } from "Components";
 
 const App = () => {
-  const [url, setUrl] = React.useState("");
-  const [changedUrl, setChangedUrl] = React.useState("");
-  const [showVideo, setShowVideo] = React.useState(false);
+  // const [url, setUrl] = React.useState("");
+  // const [changedUrl, setChangedUrl] = React.useState("");
+  // const [showVideo, setShowVideo] = React.useState(false);
 
-  React.useEffect(() => {
-    setShowVideo(changedUrl !== "");
-  }, [changedUrl]);
+  // React.useEffect(() => {
+  //   setShowVideo(changedUrl !== "");
+  // }, [changedUrl]);
   return (
     <ChakraProvider>
       <Box p={9} height="100vh">
