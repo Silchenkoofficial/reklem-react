@@ -12,12 +12,12 @@ const App = () => {
   // }, [changedUrl]);
   return (
     <ChakraProvider>
-      <Box p={9} height="100vh">
+      <Box p="10px" height="100vh">
         <Text
           display="flex"
           alignItems="center"
           fontWeight="extrabold"
-          fontSize="16px"
+          fontSize="24px"
           lineHeight="100%"
           color="#ffffff"
           fontFamily="Nunito"
