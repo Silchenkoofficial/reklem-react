@@ -83,7 +83,50 @@ const fonts = {
       fontFamily: "'Inter', sans-serif",
     },
   },
-  mobile: {},
+  mobile: {
+    H1: {
+      fontWeight: "600",
+      fontSize: 20,
+      lineHeight: "28px",
+      color: colors.black,
+      fontFamily: "'Inter', sans-serif",
+    },
+    "H2 Normal": {
+      fontWeight: "500",
+      fontSize: 18,
+      lineHeight: "28px",
+      color: colors.black,
+      fontFamily: "'Inter', sans-serif",
+    },
+    "H2 Bold": {
+      fontWeight: "700",
+      fontSize: 18,
+      lineHeight: "28px",
+      color: colors.black,
+      fontFamily: "'Inter', sans-serif",
+    },
+    H3: {
+      fontWeight: "600",
+      fontSize: 12,
+      lineHeight: "18px",
+      color: colors.black,
+      fontFamily: "'Inter', sans-serif",
+    },
+    P: {
+      fontWeight: "400",
+      fontSize: 12,
+      lineHeight: "18px",
+      color: colors.black,
+      fontFamily: "'Inter', sans-serif",
+    },
+    Menu: {
+      fontWeight: "500",
+      fontSize: 12,
+      lineHeight: "18px",
+      color: colors.black,
+      fontFamily: "'Inter', sans-serif",
+    },
+  },
 };
 
 const theme = { colors, fonts };
