@@ -12,7 +12,7 @@ const App = () => {
   }, [changedUrl]);
   return (
     <ChakraProvider>
-      <Box p={10} height="100vh">
+      <Box p={9} height="100vh">
         <Text
           display="flex"
           alignItems="center"
