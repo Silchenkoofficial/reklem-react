@@ -36,6 +36,7 @@ const App = () => {
       <Box m={4}>
         {showVideo && (
           <iframe
+            title="Youtube video"
             width="640"
             height="360"
             src={`https://www.youtube.com./embed/${changedUrl}`}
